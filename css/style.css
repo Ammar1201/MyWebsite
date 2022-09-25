@@ -8,13 +8,14 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  /* margin-left: 50vw; */
 }
 
 .body2 {
-  margin-left: 40%;
-  /* position: relative; */
-  /* background: #333; */
+  margin-left: 40%;/*move the whole site to the right*/
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .side-img {
@@ -25,6 +26,7 @@ body {
   display: inline-block;
 }
 
+/* Hamburger Menu */
 .container {
   max-width: 960px;
   margin: auto;
@@ -82,9 +84,40 @@ body {
   opacity: 0.7;
 }
 
-/* nav {
-  height: 10vh;
-  width: 100%;
-  background: black;
-  z-index: 1;
-} */
+/* Section - Read More */
+.read-more {
+  height: 100vh;
+  background: var(--primary-color);
+}
+
+/* Section - About me */
+.about-me {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me h2 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.about-me h4 {
+  margin-bottom: 5px;
+  /* font-size: 1.2rem; */
+  font-size: 0.8rem;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+}
+
+.about-me a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: var(--secondary-color);
+}
