@@ -8,6 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
+  /* background: var(--primary-color); */
 }
 
 .body2 {
@@ -87,7 +88,7 @@ body::-webkit-scrollbar {
 /* Section - Read More */
 .read-more {
   height: 100vh;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
 }
 
 /* Section - About me */
@@ -98,6 +99,7 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background: var(--primary-color);
 }
 
 .about-me h2 {
@@ -120,4 +122,58 @@ body::-webkit-scrollbar {
   padding: 10px 20px;
   color: #fff;
   background: var(--secondary-color);
+  transition: all 0.4s ease;
+}
+
+.about-me a:hover {
+  background: var(--overlay-color);
+}
+
+/* Section - Skills */
+.skills {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background: var(--primary-color);
+}
+
+.skills h2 {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 50px;
+}
+
+.skill {
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.skill:hover {
+  cursor: pointer;
+  content:"\f05d";
+  color:#fff;
+  opacity:0.4;
+}
+
+/* Projects */
+.projects {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background: var(--primary-color);
+}
+
+.projects h2 {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 50px;
 }
