@@ -118,6 +118,7 @@ body::-webkit-scrollbar {
 }
 
 .about-me a {
+  cursor: pointer;
   text-decoration: none;
   padding: 10px 20px;
   color: #fff;
@@ -127,6 +128,10 @@ body::-webkit-scrollbar {
 
 .about-me a:hover {
   background: var(--overlay-color);
+}
+
+.about-me-contact-btn {
+  padding: 20px 100px;
 }
 
 /* Section - Skills */
@@ -210,6 +215,24 @@ body::-webkit-scrollbar {
   width: 90%;
   object-fit: contain;
   position: relative;
-  top: -50px;
+  top: 30px;
 }
+
+
+/* Footer */
+.footer {
+  height: 5vh;
+  width: 100%;
+  background: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+}
+
+.footer h4 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+
+/* ------------ Contact Me Page ------------ */
 
