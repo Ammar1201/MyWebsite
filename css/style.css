@@ -130,10 +130,6 @@ body::-webkit-scrollbar {
   background: var(--overlay-color);
 }
 
-.about-me-contact-btn {
-  padding: 20px 100px;
-}
-
 /* Section - Skills */
 .skills {
   height: 50vh;
@@ -204,6 +200,7 @@ body::-webkit-scrollbar {
   top: -80px;
   color: black;
   transition: all 0.5s ease;
+  text-align: center;
 }
 
 .project a:hover {
