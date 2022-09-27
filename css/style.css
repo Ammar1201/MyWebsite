@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
   display: inline-block;
 }
 
-/* Hamburger Menu */
+/* ------------ Hamburger Menu ------------ */
 .container {
   max-width: 960px;
   margin: auto;
@@ -86,13 +86,13 @@ body::-webkit-scrollbar {
   opacity: 0.7;
 }
 
-/* Section - Read More */
+/* ------------ Section - Read More ------------ */
 .read-more {
   height: 100vh;
   /* background: var(--primary-color); */
 }
 
-/* Section - About me */
+/* ------------ Section - About me ------------ */
 .about-me {
   height: 50vh;
   display: flex;
@@ -131,7 +131,7 @@ body::-webkit-scrollbar {
   background: var(--overlay-color);
 }
 
-/* Section - Skills */
+/* ------------ Section - Skills ------------ */
 .skills {
   height: 50vh;
   display: flex;
@@ -163,7 +163,7 @@ body::-webkit-scrollbar {
   opacity:0.4;
 }
 
-/* Projects */
+/* ------------ Projects ------------ */
 .projects {
   height: 60vh;
   display: flex;
@@ -186,6 +186,10 @@ body::-webkit-scrollbar {
   height: 35h;
   width: 20%;
   background: var(--overlay-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   /* position: relative; */
   /* margin: 0 40px; */
 }
@@ -209,7 +213,7 @@ body::-webkit-scrollbar {
 }
 
 .project-link {
-  left: 50px;
+  /* left: 50px; */
   padding: 10px 20px;
   color: #fff;
   background: var(--secondary-color);
@@ -232,7 +236,7 @@ body::-webkit-scrollbar {
   text-decoration: none;
   color: black;
   position: relative;
-  right: 60px;
+  /* right: 60px; */
   top: -30px;
   transition: all 0.6s ease;
 }
@@ -242,7 +246,7 @@ body::-webkit-scrollbar {
 }
 
 
-/* Footer */
+/* ------------ Footer ------------ */
 .footer {
   height: 5vh;
   width: 100%;
