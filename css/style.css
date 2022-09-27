@@ -183,26 +183,26 @@ body::-webkit-scrollbar {
 }
 
 .project {
-  height: 35h;
+  height: 38vh;
   width: 20%;
   background: var(--overlay-color);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   /* position: relative; */
   /* margin: 0 40px; */
 }
 
-.project p {
+/* .project p {
   position: relative;
   top: -100px;
-}
+} */
 
 .project-link, .project-link-img {
   text-decoration: none;
-  position: relative;
-  top: -80px;
+  /* position: relative;
+  top: -80px; */
   color: black;
   transition: all 0.5s ease;
   text-align: center;
@@ -213,7 +213,7 @@ body::-webkit-scrollbar {
 }
 
 .project-link {
-  /* left: 50px; */
+  /* left: 50px; !!!!*/
   padding: 10px 20px;
   color: #fff;
   background: var(--secondary-color);
@@ -225,18 +225,18 @@ body::-webkit-scrollbar {
 }
 
 .project-img {
-  height: 250px;
+  /* height: 250px; */
   width: 90%;
   object-fit: contain;
-  position: relative;
-  top: 30px;
+  /* position: relative;
+  top: 30px; */
 }
 
 .project-link-original-page {
   text-decoration: none;
   color: black;
-  position: relative;
-  /* right: 60px; */
+  /* position: relative; */
+  /* right: 60px; !!!!*/
   top: -30px;
   transition: all 0.6s ease;
 }
