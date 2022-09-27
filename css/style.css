@@ -261,7 +261,7 @@ body::-webkit-scrollbar {
 
 #contact-me {
   font-family: 'Roboto', sans-serif;
-  background: url('../img/people-crosswalk.jpg') no-repeat center center/cover;
+  background: url('../img/people-crosswalk.jpg') no-repeat center center fixed;
   color: #fff;
   line-height: 1.8;
 }
@@ -295,13 +295,21 @@ a {
 .form-wrap .form-group label {
   display: block;
   color: black;
+  margin-bottom: 5px;
 }
+
+/*  cols="41" rows="10" */
 
 .form-wrap .form-group input {
   width: 94%;
   padding: 10px;
   border: #ddd solid 1px;
   border-radius: 5px;
+}
+
+.form-wrap .form-group textarea {
+  width: 98%;
+  height: 200px;
 }
 
 .form-wrap button {
@@ -327,6 +335,10 @@ a {
   width: 100%;
 }
 
+.menu-wrap .hamburger2 {
+  background: var(--primary-color);
+}
+
 .socials {
   text-align: center;
   color: black;
@@ -334,6 +346,7 @@ a {
 
 .socials h4 {
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .socials a {
